@@ -6,8 +6,8 @@ namespace Power2Method
     {
         static void Main(string[] args)
         {
-            PowersOf2Until5();
-            PowersOf2Until5();
+            PowersOf2Until5(2);
+            PowersOf2Until5(7);
         }
         private static void PowersOf2Until5()
         {
