@@ -11,6 +11,7 @@ namespace Power2Method
             PowersOf2Until5();
             PowersOf2Until5(2);
             PowersOf2Until5(7);
+            PowersOf2UntilN(2,4);
         }
         ///Calls the method with argument 5.
         private static void PowersOf2Until5()
