@@ -25,6 +25,7 @@ namespace Power2Method
                 Console.WriteLine(i);
             } 
         }
+        ///Shows potencies of 2 between n1 and n2 
         private static void PowersOf2UntilN(int n1, int n2)
         {
             for (int i = 1 << n1; i <= (1 << n2); i = i << 1)
